@@ -7,6 +7,9 @@ html {
 }
 
 body {
-  font-family: 'Montserrat' , sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: #eee;
+  max-width: 900px;
+  padding: 20px;
+  margin: 0 auto;
 }
