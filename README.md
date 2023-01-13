@@ -1,5 +1,5 @@
 # To-do list
-![Shopping list image]()
+![Shopping list image](https://github.com/Albrecht-Albi/To-do_list-react/blob/main/public/images/to-do_list.png)
 
 ## Hello everyone !
 This project was bootstrapped with Create React App.
@@ -8,7 +8,7 @@ This project was bootstrapped with Create React App.
 https://albrecht-albi.github.io/To-do_list-react/
 
 ## How it's working
-![To do list gif]()
+![To do list gif](https://github.com/Albrecht-Albi/To-do_list-react/blob/main/public/images/recordingToDoListUpdate.gif)
 
 ## Uset technologies
 - HTML
