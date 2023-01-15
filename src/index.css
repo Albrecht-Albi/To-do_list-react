@@ -9,6 +9,7 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   background: #eee;
+  margin: 0 auto;
   max-width: 900px;
   padding: 20px;
   margin: 0 auto;
