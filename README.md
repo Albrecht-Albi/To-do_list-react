@@ -1,4 +1,4 @@
-# To-do list
+# To-do list-react
 ![Shopping list image](https://github.com/Albrecht-Albi/To-do_list-react/blob/main/public/images/to-do_list.png)
 
 ## Hello everyone !
