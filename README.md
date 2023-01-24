@@ -10,7 +10,7 @@ https://albrecht-albi.github.io/To-do_list-react/
 ## How it's working
 ![To do list gif](https://github.com/Albrecht-Albi/To-do_list-react/blob/main/public/images/recordingToDoListUpdate.gif)
 
-## Uset technologies
+## Used technologies
 - HTML
 - CSS
 - JavaScript
