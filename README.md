@@ -10,16 +10,16 @@ https://albrecht-albi.github.io/To-do_list-react/
 ## How it's working
 ![To do list gif](https://github.com/Albrecht-Albi/To-do_list-react/blob/main/public/images/recordingToDoListUpdate.gif)
 
-## Used technologies
-- HTML
-- CSS
-- JavaScript
-- BEM
-- Grid
-- Flex
+## Technologies used in the project
+To create the application I have used:
+- HTML 5
+- CSS Grid
+- Normalize.css
+- Media queries
+- BEM convention
+- JavaScript ES6+
 - React
-- Create React App
-- Webpack
+- Create-react-app
 
 
 ## Available Scripts
