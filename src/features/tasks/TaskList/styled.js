@@ -25,8 +25,6 @@ export const Content = styled.span`
     `}
 `;
 
-
-
 export const Button = styled.button`
     border: none;
     color: ${({ theme }) => theme.color.white};
