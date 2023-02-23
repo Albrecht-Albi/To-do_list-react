@@ -4,8 +4,7 @@
 ## Hello everyone !
 This project was bootstrapped with Create React App.
 
-## Demo
-https://albrecht-albi.github.io/To-do_list-react/
+## Demo App: [ToDo list React](https://albrecht-albi.github.io/To-do_list-react/)
 
 ## How it's working
 ![To do list gif](https://github.com/Albrecht-Albi/To-do_list-react/blob/main/public/images/recordingToDoListUpdate.gif)
@@ -18,9 +17,9 @@ To create the application I have used:
 - Media queries
 - BEM convention
 - JavaScript ES6+
-- React
 - Create-react-app
-
+- React
+- Redux
 
 ## Available Scripts
 
