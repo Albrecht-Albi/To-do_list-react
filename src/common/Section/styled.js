@@ -9,7 +9,7 @@ export const Wrapper = styled.section`
 export const Header = styled.header`
     border-bottom: 1px solid ${({ theme }) => theme.color.alto};
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr auto;
     align-items: center;
     
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
