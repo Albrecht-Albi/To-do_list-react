@@ -1,6 +1,6 @@
 ## To-do list react
 
-## Demo App:   [To-do list-react](https://albrecht-albi.github.io/To-do_list-react/)
+## Demo: *clik on <img src="public/images/arrow.png" height="20px" width="20px"/>* [Link](https://albrecht-albi.github.io/To-do_list-react/)
 
 ![Shopping list image](https://github.com/Albrecht-Albi/To-do_list-react/blob/main/public/images/to-do_list.png)
 
@@ -14,14 +14,13 @@ The "task list" application is designed to create and edit a to-do list.
 This project was bootstrapped with Create React App.
 In my website I used this technologies:
 
-- HTML
-- CSS
-- Java Script
-- BEM
-- React
-- React Redux
-- Redux Toolkit
-- Styled Components
+## Demo: *clik on <img src="images/arrow.png" height="20px" width="20px"/>* [Link](https://gosia-magdzik.github.io/todo-list-react/)
+
+## Technologies I have used:
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,redux,styledcomponents,git,)](https://skillicons.dev)
+
+
 
 ### Available Scripts
 
