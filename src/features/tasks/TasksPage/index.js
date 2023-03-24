@@ -1,27 +1,27 @@
 import Form from "./Form";
-import TaskList from "./TaskList";
 import Buttons from "./Buttons";
 import Section from "../../../common/Section";
-import Header from "../../../common/Header";
-import { Container } from "../../../common/Container/styled";
+import {Container} from "../../../common/Container/styled";
+import TasksList from "../TasksPage/TaskList";
+import ExampleTasksButton from "../ExampleTasksButton";
 import Search from "./Search";
 
-function TasksPage() {
+const TasksPage = () => {
   return (
     <Container>
-      <Header
-        title="Lista zadań" />
+      <h1>Lista zadań</h1>
       <Section
         title="Dodaj nowe zadanie"
+        extraHeaderContent={<ExampleTasksButton />}
         body={<Form />}
       />
       <Section
-        title="Wyszukiwarka"
+        title="Zadania"
         body={<Search />}
       />
       <Section
         title="Lista zadań"
-        body={<TaskList />}
+        body={<TasksList />}
         extraHeaderContent={<Buttons />}
       />
     </Container>

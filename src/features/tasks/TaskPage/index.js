@@ -1,7 +1,6 @@
 import Section from "../../../common/Section";
-import Header from "../../../common/Header";
-import { Container } from "../../../common/Container/styled";
-import { useParams } from "react-router-dom";
+import { Container } from "../../../common/Container//styled";
+import { useParams } from "react-router";
 import { useSelector } from "react-redux";
 import { getTaskById } from "../tasksSlice";
 
@@ -11,16 +10,15 @@ function TaskPage() {
 
   return (
     <Container>
-      <Header
-        title="Szczegóły zadania" />
+      <h1>Szczegóły zadania</h1>
       <Section
-        title={task ? task.content : "Nie znaleziono zadania 😢"}
-        body={
+        title={task ? task.content : "Nie ma takiego zadania 😢"}
+        body={!!task && (
           <><strong>Ukończono:</strong> {task.done ? "Tak" : "Nie"}</>
-        }
+        )}
       />
     </Container>
   );
 }
 
-export default TaskPage;
+export default TaskPage; 

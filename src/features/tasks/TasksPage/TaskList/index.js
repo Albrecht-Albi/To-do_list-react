@@ -1,44 +1,44 @@
+import { List, Item, Content, Button, StyledLink } from "./styled";
 import { useSelector, useDispatch } from "react-redux";
-import { Link, useLocation } from "react-router-dom";
-import { toggleTaskDone, removeTask, selectHideDone, selectTasksByQuery } from "../../tasksSlice";
-import { List, Item, Content, ToggleDoneButton, RemoveButton } from "./styled";
+import { toggleTaskDone, removeTask, selectHidenDone, selectTasksByQuery } from "../../tasksSlice";
 import searchQueryParamName from "../searchQueryParamName";
+import { toTask } from "../../../../routes";
+import { useQueryParameter } from "../../queryParameters";
 
-const TaskList = () => {
-  const location = useLocation();
-  const query = (new URLSearchParams(location.search)).get(searchQueryParamName);
+const TasksList = () => {
+  const query = useQueryParameter(searchQueryParamName);
   const tasks = useSelector(state => selectTasksByQuery(state, query));
-  const hideDone = useSelector(selectHideDone);
-  const dispatch = useDispatch()
+  const hideDone = useSelector(selectHidenDone);
+
+  const dispatch = useDispatch();
 
   return (
     <List>
-      {tasks.map(({ id, content, done }) => (
+      {tasks.map(task => (
         <Item
-          key={id}
-          hidden={done && hideDone}
+          key={task.id}
+          hidden={task.done && hideDone}
         >
-          <ToggleDoneButton
-            toggleDone
-            onClick={
-              () => dispatch(toggleTaskDone(id))}
+          <Button
+            onClick={() => dispatch(toggleTaskDone(task.id))}
+            done
           >
-            {done ? "✔" : ""}
-          </ToggleDoneButton>
-          <Content done={done}>
-            <Link to={`/zadania/${id}`}>{content}</Link>
+            {task.done ? "✓" : ""}
+          </Button>
+          <Content done={task.done}
+          >
+            <StyledLink to={toTask({ id: task.id })}>{task.content}</StyledLink>
           </Content>
-          <RemoveButton
+          <Button
             remove
-            onClick={
-              () => dispatch(removeTask(id))}
+            onClick={() => dispatch(removeTask(task.id))}
           >
             🗑
-          </RemoveButton>
+          </Button>
         </Item>
       ))}
     </List>
   );
-};
+}
 
-export default TaskList;
+export default TasksList;

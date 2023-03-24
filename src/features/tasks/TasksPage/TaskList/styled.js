@@ -1,50 +1,63 @@
+import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
 
 export const List = styled.ul`
     list-style: none;
-    padding: 0px;
-    margin: 0;
+    padding: 0;
+    margin-block-start: 35px;
+    margin-block-end: 25px;
 `;
 
 export const Item = styled.li`
     display: grid;
     grid-template-columns: auto 1fr auto;
-    grid-gap: 10px;
-    padding: 10px;
-    border-bottom: 1px solid ${({ theme }) => theme.color.alto} ;
-    align-items: center;  
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid ${({ theme }) => theme.color.alto};
     ${({ hidden }) => hidden && css`
         display: none;
     `}
 `;
 
 export const Content = styled.span`
-    word-break: break-word;
+    display: flex;
+    align-items: center;
     ${({ done }) => done && css`
         text-decoration: line-through;
     `}
 `;
 
 export const Button = styled.button`
-    border: none;
-    color: ${({ theme }) => theme.color.white};
     width: 30px;
     height: 30px;
-    padding: 0px;
-    transition: 0.3s;
-    
-    &:hover {
-        filter: brightness(110%);
-    }
-    &:active {
-        filter: brightness(120%);
-    }
+    background-color: ${({ theme }) => theme.color.forestGreen};
+    border-style: none;
+    ${({ remove }) => remove && css`
+        background-color: ${({ theme }) => theme.color.crimson};
+        color: ${({ theme }) => theme.color.white};
+        transition: 1s;
+
+        &:hover {
+            filter: brightness(120%);
+        }
+        &:active {
+            filter: brightness(140%);
+        }
+    `}
+    ${({ done }) => done && css`
+        color: ${({ theme }) => theme.color.white};
+        transition: 1s;
+        
+        &:hover {
+            filter: brightness(120%);
+        }
+        &:active {
+            filter: brightness(140%);
+        }
+    `}
 `;
 
-export const ToggleDoneButton = styled(Button)`
-        background: ${({ theme }) => theme.color.forestGreen};
+export const StyledLink = styled(Link)`
+    color: ${({ theme }) => theme.color.teal};
+    text-decoration: none;
 `;
-
-export const RemoveButton = styled(Button)`
-    background: ${({ theme }) => theme.color.crimson};
-    `;
