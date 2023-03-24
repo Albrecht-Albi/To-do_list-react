@@ -14,8 +14,6 @@ The "task list" application is designed to create and edit a to-do list.
 This project was bootstrapped with Create React App.
 In my website I used this technologies:
 
-## Demo: *clik on <img src="images/arrow.png" height="20px" width="20px"/>* [Link](https://gosia-magdzik.github.io/todo-list-react/)
-
 ## Technologies I have used:
 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,react,redux,styledcomponents,git,)](https://skillicons.dev)
