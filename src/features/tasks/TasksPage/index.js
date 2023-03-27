@@ -3,7 +3,7 @@ import Buttons from "./Buttons";
 import Section from "../../../common/Section";
 import {Container} from "../../../common/Container/styled";
 import TasksList from "../TasksPage/TaskList";
-import ExampleTasksButton from "../ExampleTasksButton";
+import ExampleTasksButton from "./ExampleTasksButton";
 import Search from "./Search";
 
 const TasksPage = () => {
