@@ -17,17 +17,11 @@ const AuthorPage = () => (
             <b> Reacta </b> razem z całą grupą <b>You</b>Code!
           </p>
           <p>
-            By już w któtce programować na całego. Interesuje się podróżami w egzotyczne miejsca np. <em>Dubaj, Bangkok</em> czy <em>Egipt</em>  i poznawaniem ich kultury. Uwielbiam tęż odkrywać wyjątkowe miejsca, a przy tym robić mnóstwo fantastyczch zdjęć.
+            By już w któtce programować na całego. Interesuje się podróżami w egzotyczne miejsca np. <em>Dubaj, Bangkok</em> czy <em>Egipt</em>  i poznawaniem ich kultury. Uwielbiam tęż odkrywać wyjątkowe miejsca, a przy tym robić mnóstwo fantastyczch zdjęć. A tu próbka moich zjęć <a href="https://www.instagram.com/vet.albi/" target="_blank"><strong>Instagram Page</strong></a>.
           </p>
           <p>
-            Zobacz moje zdjęcia 🠲 <a href="https://www.instagram.com/vet.albi/" target="_blank"><strong>Instagram</strong></a>
+            Zobacz też mój <a href="https://github.com/Albrecht-Albi" target="_blank"><strong> GitHub Page</strong></a>.
           </p>
-          <p>
-            Wejdź też na mój 🠲 <a href="https://github.com/Albrecht-Albi" target="_blank"><strong> GitHub</strong></a>
-          </p>
-
-
-
         </>}
     />
   </Container >
