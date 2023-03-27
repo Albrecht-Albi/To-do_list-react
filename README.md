@@ -1,13 +1,14 @@
-## To-do list react
+# <p align="center"><img src="public/images/mini.png" height="25"/> **Tasks List**</p>
 
-## Demo: *clik on <img src="public/images/arrow.png" height="20px" width="20px"/>* [Link](https://albrecht-albi.github.io/To-do_list-react/)
+## Demo [clik on Link](https://albrecht-albi.github.io/To-do_list-react/)
 
 ![Shopping list image](https://github.com/Albrecht-Albi/To-do_list-react/blob/main/public/images/to-do_list.png)
 
-### How it's working
+## How it's working
+
 ![To do list gif](https://github.com/Albrecht-Albi/To-do_list-react/blob/main/public/images/recordingToDoListUpdate.gif)
 
-### Description:
+## Description:
 This is my website project.
 The "task list" application is designed to create and edit a to-do list.
 
@@ -17,8 +18,6 @@ In my website I used this technologies:
 ## Technologies I have used:
 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,react,redux,styledcomponents,git,)](https://skillicons.dev)
-
-
 
 ### Available Scripts
 
