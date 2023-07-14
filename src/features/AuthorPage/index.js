@@ -24,7 +24,7 @@ const AuthorPage = () => (
           </p>
         </>}
     />
-  </Container >
+  </ Container>
 );
 
 export default AuthorPage;
